@@ -1,0 +1,9 @@
+void cuentaRegresiva(int pNum){
+	if (pNum != 0){
+		system("CLS"); // limpia la consola
+		printf("..\n%d\n..\n",pNum); //imprime el numero
+		sleep(1); //espera 1 segundo
+		cuentaRegresiva(pNum-1); //vuelve a invocar
+	}
+	
+}
